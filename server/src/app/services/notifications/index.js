@@ -1,0 +1,16 @@
+module.exports = {
+  CreateNotification: require('./createNotification'),
+  FetchAll: require('./fetchAll'),
+  UpdateNotification: require('./updateNotification'),
+  //ViewAdmins: require('./viewAdmins'),
+  //AddAdmin: require('./addAdmin'),
+  RemoveNotification: require('./removeNotification'),
+  //FindByUserID: require('./fetchLocalitiesByUser'),
+  //FindAdminLocality: require('./viewAdminlocalites'),
+  //FindDefinition: require('./fetchIncidentFields'),
+  //FetchCount: require('./count'),
+  //UpdateDefinition: require('./updateDefinition'),
+  //RecursiveFindLocalities: require('./recursiveFetchLocalities'),
+  //GetSetup: require('./getSetup'),
+  //FetchAvailableLocalities: require('./fetchAvailableLocalities'),
+};

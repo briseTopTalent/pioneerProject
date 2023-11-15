@@ -1,0 +1,15 @@
+module.exports = {
+  FetchUserByMulti: require('./fetchUserByMulti'),
+  FetchUserProfile: require('./fetchUserProfile'),
+  SubscribeToLocality: require('./subscribeToLocality'),
+  UnsubscribeFromLocality: require('./unsubFromLocality'),
+  CreateAdmin: require('./createAdmin'),
+  FindAllUsers: require('./fetchUsers'),
+  FindUserByEmail: require('./fetchUserByEmail'),
+  UpdateAdmin: require('./updateAdmin'),
+  FetchCount: require('./count'),
+  CreateUser: require('./createUser'),
+  ResetPassword: require('./resetPw').ResetPw,
+  UpdateUser: require('./updateUser').UpdateUser,
+  ForgotPassword: require('./forgotPw'),
+};

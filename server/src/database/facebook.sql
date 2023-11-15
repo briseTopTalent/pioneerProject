@@ -1,0 +1,20 @@
+create table facebook (
+		id SERIAL,
+    _user INT NOT NULL,
+    locality_id INT,
+    page_name TEXT NOT NULL,
+    page_id TEXT NOT NULL,
+    access_token TEXT NOT NULL,
+    fb_user_id TEXT NOT NULL,
+    fb_original_access_token TEXT NOT NULL,
+    long_lived_access_token TEXT,
+    long_lived_expires_in INT,
+    expires_in INT,
+    expiration_time INT,
+    signed_request TEXT,
+    response_message TEXT,
+    error_message TEXT,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    active BOOLEAN NOT NULL DEFAULT TRUE,
+		PRIMARY KEY(id)
+);

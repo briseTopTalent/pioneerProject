@@ -1,0 +1,8 @@
+body {
+	filter: invert(0.84);
+}
+
+.table > tbody > tr > td > button {
+	padding: 0.3em;
+	margin-top: 1em;
+}

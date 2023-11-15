@@ -1,0 +1,6 @@
+.ggle-map-selected {
+  background-color: green;
+  opacity: 0.5;
+  color: black;
+  border: 2px dotted red;
+}

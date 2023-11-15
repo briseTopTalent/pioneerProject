@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "baseUrl": "server/src/",
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+		"allowJs": true
+  },
+  "exclude": [
+    "next.config.js",
+    "node_modules",
+    "server/src/styles",
+		"dist",
+		"logs",
+		"public",
+		"src"
+  ],
+  "include": [
+    "server/src/cli.ts"
+  ]
+}
